@@ -160,3 +160,25 @@ img {
     max-width: 100%; 
     height: auto; 
 }
+
+@-moz-document url-prefix() {
+    p {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    a img {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+    .home {
+        background-color: transparent;
+        margin: 0;
+        opacity: 1;
+    }
+
+    .background::before {
+        filter: none;
+    }
+}
