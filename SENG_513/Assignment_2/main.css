@@ -14,7 +14,6 @@ body {
     grid-gap: 1% 1%;
     grid-template-columns: 24% 24% 24% 24%;
     grid-template-rows: 13% 13% 13% 13% 13% 13% 13%;
-    padding: 1%;
     border: 1px solid black;
     background-color: lightgrey;
 }
